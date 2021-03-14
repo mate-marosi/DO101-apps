@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Jó estét 03.14.!\n');
+  res.send('Jó estét 03.14. v2!\n');
 });
 
 app.listen(8080, function () {
